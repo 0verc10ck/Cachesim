@@ -262,6 +262,7 @@ int main(int argc, char *argv[])
 
    }
 
+   //start here
    total_count = 0;
 
    read = fopen(argv[2], "r");
@@ -385,9 +386,6 @@ int main(int argc, char *argv[])
       else
 
       {
-
-
-
          fscanf(read, "%d\n", &address_input.data);
 
          if (L1[address_input.index].valid == 0)
@@ -505,7 +503,6 @@ int main(int argc, char *argv[])
 
 
    }
-
 
 
    printf("*L1 Cache Contents\n");
